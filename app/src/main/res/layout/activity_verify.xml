@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Verify"
+
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#000000"
+            app:srcCompat="@drawable/back_1"
+            app:tint="#000000" />
+
+        <TextView
+            android:id="@+id/textverif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Masukkan Kode Verifikasi "
+            android:textColor="#000000"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Masukkan 6-digit kode yang telah dikirimkan"
+        android:fontFamily="@font/poppins_light"
+        android:textSize="10sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/otp1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:hint="22"
+            android:gravity="center"
+            android:background="@drawable/otp_code"
+            />
+
+        <EditText
+            android:id="@+id/otp2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:hint="22"
+            android:gravity="center"
+            android:background="@drawable/otp_code"
+            />
+        <EditText
+            android:id="@+id/otp3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:hint="22"
+            android:gravity="center"
+            android:background="@drawable/otp_code"
+            />
+        <ImageView
+            android:id="@+id/otp4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            tools:srcCompat="@drawable/minus"/>
+        <EditText
+            android:id="@+id/minus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:hint="22"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="@drawable/otp_code"/>
+
+        <EditText
+            android:id="@+id/otp5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:hint="22"
+            android:gravity="center"
+            android:background="@drawable/otp_code"
+            />
+        <EditText
+            android:id="@+id/otp6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:hint="22"
+            android:gravity="center"
+            android:background="@drawable/otp_code"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

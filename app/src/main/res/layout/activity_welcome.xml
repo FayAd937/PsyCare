@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Welcome"
+
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="PsyCare"
+        android:textAlignment="center"
+        android:textColor="#004AAD"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/nama2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dm_sans_medium"
+        android:text="Mental Health Care"
+        android:textAlignment="center"
+        android:textColor="#004AAD"
+        android:textColorLink="#FF0303"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Selamat Datang di PsyCare!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dm_sans_medium"
+        android:text="Masuk atau buat akun baru"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/daftar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="40"
+        android:background="@drawable/stroke_button"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="Masuk"
+        android:textColor="#000000"
+        android:textColorLink="#9C4747"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/masuk"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="40"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="Daftar"
+        android:textSize="16sp" />
+
+</LinearLayout>
